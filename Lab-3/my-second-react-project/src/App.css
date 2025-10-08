@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.ColorBoxesContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(5, 50px);
+  justify-content: center;
+  align-content: center;
+  gap: 0;
+  margin: 0 auto;
+}
+
+.ColorBox {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black; /* black border */
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.ColorBox:hover {
+  transform: scale(1.05);
+}
