@@ -1,0 +1,142 @@
+#root {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 1150px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.NavBar {
+  background-color: rgb(76, 43, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.NavTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.NavCart img {
+  height: 40px;
+}
+
+.GroceriesApp-Container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ProductsContainer {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.ProductCard {
+  width: 23%;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #2b3036;
+  color: white;
+}
+
+.ProductCard img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.counter-button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 5px;
+  color: white;
+  background-color: transparent;
+}
+
+.CartContainer {
+  width: 25%;
+  max-height: 80vh;
+  overflow-y: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.CartCard {
+  display: flex;
+  align-items: center;
+  border: 2px wheat solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #2b3036;
+}
+
+.CartCard img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.CartCardInfo {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.CartListBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.RemoveButton,
+#BuyButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RemoveButton {
+  background-color: rgb(190, 0, 0);
+  color: white;
+}
+
+.RemoveButton:hover {
+  opacity: 0.8;
+}
+
+#BuyButton {
+  background-color: green;
+  color: white;
+}
+
+#BuyButton:hover {
+  opacity: 0.8;
+}
